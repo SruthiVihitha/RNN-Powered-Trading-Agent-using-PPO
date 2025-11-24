@@ -199,51 +199,14 @@ A simple rule-based strategy using moving averages:
 
 ---
 
-## Results example (what you should expect)
-
-* Train each agent and run the ablation study. The saved `ablation_study_results.png` visualizes:
-
-  * Equity curves (agent vs Buy & Hold),
-  * Sharpe comparison,
-  * Maximum drawdown comparison,
-  * CAGR comparison.
-* Typical output table printed with final portfolio values, sharpe, sortino, mdd, cagr per strategy.
+## Results 
+<img width="1512" height="982" alt="Screenshot 2025-11-06 at 8 42 00 AM" src="https://github.com/user-attachments/assets/ea6702a3-dcb3-4dbc-9d89-7e29b18a42a0" />
+<img width="1512" height="982" alt="Screenshot 2025-11-06 at 8 42 31 AM" src="https://github.com/user-attachments/assets/22e899dd-e665-4115-8ea8-0b97b4907439" />
+<img width="1512" height="982" alt="Screenshot 2025-11-06 at 8 42 55 AM" src="https://github.com/user-attachments/assets/cb422070-83f9-40eb-bb45-00b6caf0d086" />
+<img width="1512" height="982" alt="Screenshot 2025-11-06 at 8 43 03 AM" src="https://github.com/user-attachments/assets/940572fc-ba5d-49fa-b7ef-5763b648d934" />
+<img width="3024" height="1964" alt="Screenshot 2025-11-06 at 8 43 24 AM" src="https://github.com/user-attachments/assets/9ccc58de-defe-4036-a3b7-cffc24aa58d4" />
 
 ---
-
-## Files you uploaded (local copies)
-
-(If you want these included on GitHub, re-upload / place them in repo.)
-
-* Resume and PDF files (local paths):
-
-  * `/mnt/data/Resume.PDF`
-  * `/mnt/data/AP22110010425_SruthiVihitha.pdf`
-  * `/mnt/data/SRUTHI VIHITHA POTLURI (2).pdf`
-  * `/mnt/data/SRUTHI VIHITHA POTLURI_Doc (1).pdf`
-
-> Note: If you rely on these local paths for a hosted repo, replace with repository-relative links or upload them to the repo.
-
----
-
-## Reproducibility tips
-
-* Fix random seeds across `numpy` and `torch` (already set in code).
-* Use identical PPO hyperparameters across ablation runs to make comparisons fair.
-* When comparing to Buy & Hold ensure both curves are aligned (both start from initial cash at time 0).
-
----
-
-## Next steps / Improvements you can make
-
-* Allow multiple shares / fractional shares and position sizing rules.
-* Add transaction slippage models and variable fees.
-* Add risk management (stop-loss, take-profit).
-* Try longer training, different reward shaping, or value-based algorithms (SAC, A2C).
-* Add walk-forward validation (rolling windows) to test robustness.
-
----
-
 ## License
 
 MIT License — feel free to reuse and adapt for research or portfolio demos.
@@ -253,7 +216,7 @@ MIT License — feel free to reuse and adapt for research or portfolio demos.
 ## Contact
 
 Sruthi Vihitha Potluri — `sruthivihitha_potluri@srmap.edu.in`
-Repo owner: [SruthiVihitha](https://github.com/SruthiVihitha) (update link in repo)
+Repo owner: [SruthiVihitha](https://github.com/SruthiVihitha) 
 
 ---
 
